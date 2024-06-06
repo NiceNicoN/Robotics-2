@@ -5,7 +5,7 @@
 //subjects in a field of 180°. This in turn helps the Elegoo Car  //
 //to follow an object and eventualy another Elegoo Car.           //
 //Code available on: //
-//  //
+// https://github.com/NiceNicoN/Robotics-2/blob/main/Auto-Follow_Mode.ino //
 
 
 //Include the Servo Motor Library
