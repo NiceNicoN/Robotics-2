@@ -1,11 +1,14 @@
-/*
-  I2C Master Control Demo
-  i2c-master-demo-control.ino
-  Demonstrate use of I2C bus
-  Master sends potentimeter position data
-  DroneBot Workshop 2019
-  https://dronebotworkshop.com
-*/
+//* I2C Master Control LIA *//
+
+// This code uses the I2C Protocol to link to arduinos.                                 //
+// The Master Arduino aquires data from an RFID Reader/Writer.                          //
+// It then ACCEPTS or REJECTS the RFID Sensor and displays it on an LCD.                //
+// If it ACCEPTS, it comunicates through the I2C Protocol to a Peripheral Arduino.      //
+// The Peripheral Arduino is in charge of a MicroServo, Ultrasonic sensor, and 4 Motors.//
+// To be paired with i2c_Peripheral_Control_LIA.ino                                     //
+// Code available on: //
+//  //
+
 
 // Include these libraries for RFID card reader and LCDisplay
 #include <SPI.h>                 //Serial Peripheral Interface
