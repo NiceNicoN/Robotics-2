@@ -7,7 +7,7 @@
 // The Peripheral Arduino is in charge of a MicroServo, Ultrasonic sensor, and 4 Motors.//
 // To be paired with i2c_Master_LIA.ino                                     //
 // Code available on: //
-//  //
+// https://github.com/NiceNicoN/Robotics-2/blob/main/i2c_Peripheral_Control_LIA.ino //
 
 // Include Arduino Wire library for I2C
 #include <Wire.h>
