@@ -1,6 +1,6 @@
 //* I2C Master Control LIA *//
 
-// This code uses the I2C Protocol to link to arduinos.                                 //
+// This code uses the I2C Protocol to link 2 arduinos.                                 //
 // The Master Arduino aquires data from an RFID Reader/Writer.                          //
 // It then ACCEPTS or REJECTS the RFID Sensor and displays it on an LCD.                //
 // If it ACCEPTS, it comunicates through the I2C Protocol to a Peripheral Arduino.      //
