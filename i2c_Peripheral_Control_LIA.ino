@@ -1,12 +1,13 @@
-/*
-  I2C Slave Control Demo
-  i2c-slave-demo-control.ino
-  Demonstrate use of I2C bus
-  Receives potentimeter position data
-  Controls LED blink rate
-  DroneBot Workshop 2019
-  https://dronebotworkshop.com
-*/
+//* I2C Peripheral Control LIA *//
+
+// This code uses the I2C Protocol to link 2 arduinos.                                 //
+// The Master Arduino aquires data from an RFID Reader/Writer.                          //
+// It then ACCEPTS or REJECTS the RFID Sensor and displays it on an LCD.                //
+// If it ACCEPTS, it comunicates through the I2C Protocol to a Peripheral Arduino.      //
+// The Peripheral Arduino is in charge of a MicroServo, Ultrasonic sensor, and 4 Motors.//
+// To be paired with i2c_Master_LIA.ino                                     //
+// Code available on: //
+//  //
 
 // Include Arduino Wire library for I2C
 #include <Wire.h>
